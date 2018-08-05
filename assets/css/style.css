@@ -1,4 +1,85 @@
+
+
+/*
 h1{
-    color: pink;
+ text-align: center;
+ color: black;
+ font-size: 40px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ font-family: Calibri;
+ background-color: white;
+
+/* position: relativbkit-animation-name: example;
+ -webkit-animation-duration: 6s;
+ animation-name: example;
+ animation-duration: 6s;
+
+}
+*/
+@keyframes example {
+    0%   {background-color:lightpink;}
+    25%  {background-color:lightblue;}
+    50%  {background-color: palevioletred;}
+    75%  {background-color: darksalmon;}
+    100% {background-color:white;}
+}
+
+.topnav{
+    padding-top: 40px;
+    background-color: white;
+    overflow: hidden;
+    font-size: 30px;
+    font-family: Arial;
+
+    text-align: center;
+    width: 100%;
+
+}
+.topnav ul{
+    display:inline-block;
+}
+.topnav li{
+    float: left;
+}
+
+.topnav li+li{
+    margin-left:20px;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+
+
+.topnav a:hover {
+    background-color: lightpink;
+    color: black;
+    border-radius:10px;
+    position: relative;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+
+.topnav a:active {
+    background-color: lightgray;
+    color: white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
 
 }
